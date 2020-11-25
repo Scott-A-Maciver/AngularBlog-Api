@@ -1,4 +1,4 @@
-const mongoDBConnectionString = "const myData = dataService("mongodb+srv://admin:admin@cluster0.o9q4x.mongodb.net/blog?retryWrites=true&w=majority");";
+const mongoDBConnectionString = "mongodb+srv://admin:admin@cluster0.o9q4x.mongodb.net/blog?retryWrites=true&w=majority";
 const HTTP_PORT = process.env.PORT || 8080;
 
 const express = require("express");
